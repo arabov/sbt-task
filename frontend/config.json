@@ -1,0 +1,8 @@
+{
+  "production": {
+    "backend": "http://localhost:1111"
+  },
+  "development": {
+    "backend": "http://localhost:1110"
+  }
+}

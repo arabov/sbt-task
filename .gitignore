@@ -1,0 +1,39 @@
+.DS_Store
+package-lock.json
+/backend/node_modules
+/frontend/node_modules
+/frontend/dist
+# local env files
+/backend/.env.local
+/backend/.env.*.local
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Log files
+/backend/npm-debug.log*
+/frontend/npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+/backend/.idea
+/backend/.vscode
+/backend/*.suo
+/backend/*.ntvs*
+/backend/*.njsproj
+/backend/*.sln
+/backend/*.sw*
+
+/frontend/.idea
+/frontend/.vscode
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw*
