@@ -7,7 +7,7 @@ export default (socket) => {
 
     socket.on('login', async (object) => {
 
-        //ищем польщователя в бд
+        //ищем пользователя в бд
         let user = db.users.find((user) => user.login === object.login);
 
         if (!user) {
