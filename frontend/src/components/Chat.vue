@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div ref="chat" class="q-pa-lg" @change="scroll">
+        <div ref="chat" class="q-pa-lg">
             <q-chat-message v-for="(message, index) in history" :key="index"
                             :text="[message.text]"
                             :name="(message.id === chat.id) ? 'You' : message.author"
